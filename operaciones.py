@@ -25,5 +25,5 @@ def potencia(a, b):
 def division_entera(a, b):
     """Devuelve la división entera (sin decimales)."""
     if b == 0:
-        raise ValueError("No se puede dividir entre cero.")
+        raise ValueError("No se logra dividir entre cero.")
     return a // b
